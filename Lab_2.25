@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip>               //For setprecision
+using namespace std;
+
+int main() {
+
+   double milesGallon;
+   double dollarsGallon;
+   
+   cin >> milesGallon;
+   cin >> dollarsGallon;
+   
+   cout << fixed << setprecision(2);
+   cout << static_cast<double>(20 / milesGallon) * dollarsGallon << " ";
+   cout << static_cast<double>(75 / milesGallon) * dollarsGallon << " ";
+   cout << static_cast<double>(500 / milesGallon) * dollarsGallon << endl;
+
+   return 0;
+}
