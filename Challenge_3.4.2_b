@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int inVal;
+   
+   cin >> inVal; 
+   
+   if (inVal >= 10) {
+      cout << "10 or more" << endl;       
+   }
+   else {
+      cout << "Below 10" << endl;
+   }
+
+   return 0;
+}
