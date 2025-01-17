@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int inputVal;
+   
+   cin >> inputVal; 
+   
+   if (inputVal >= -60) {
+      cout << "-60 or more" << endl;
+   }
+   else { 
+      cout << "Less than -60" << endl;
+   }
+
+   return 0;
+}
