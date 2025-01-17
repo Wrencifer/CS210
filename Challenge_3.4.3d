@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int numberOfItems;
+   int acceptedGroups;
+   int invalidGroups;
+
+   cin >> numberOfItems;
+   cin >> acceptedGroups;
+   cin >> invalidGroups;
+
+   if (numberOfItems < 23) {
+      acceptedGroups -= 4;
+   }
+   else {
+      invalidGroups -= 2;
+   }
+
+   cout << acceptedGroups << endl;
+   cout << invalidGroups << endl;
+
+   return 0;
+}
