@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int userInput;
+   
+   cin >> userInput; 
+   
+   if (userInput > 100) {
+      cout << "Above 100" << endl;       
+   }
+   else {
+      cout << "100 or less" << endl;
+   }
+
+   return 0;
+}
