@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int penCount;
+
+   cin >> penCount;
+
+   if (penCount < 10) {
+      cout << "Not enough pens" << endl;
+   }
+   else {
+      cout << "Plenty of pens" << endl;
+   }
+
+   return 0;
+}
