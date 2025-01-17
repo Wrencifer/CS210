@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int roomCapacity;
+   
+   cin >> roomCapacity; 
+   
+   if (roomCapacity > 110) {
+      cout << "Exceeds capacity" << endl;
+   }
+   else {
+      cout << "Does not exceed capacity" << endl;
+   }
+
+   return 0;
+}
