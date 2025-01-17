@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int userAge;
+   int hoursOfSleep;
+
+   cin >> userAge;
+   cin >> hoursOfSleep;
+
+   if (userAge >= 4) {
+      hoursOfSleep += 1;
+   }
+
+   cout << hoursOfSleep << endl;
+
+   return 0;
