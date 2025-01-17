@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int numberOfTrucks;
+
+   cin >> numberOfTrucks;
+
+   if (numberOfTrucks > 12) {
+      cout << "Too many trucks" << endl;
+   }
+
+   return 0;
+}
