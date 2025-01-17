@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int degreesCelsius;
+
+   cin >> degreesCelsius;
+
+   if (degreesCelsius <= 6) {
+      cout << "Too cold" << endl;
+   }
+   
+   else if (degreesCelsius < 34) {
+      cout << "Fine" << endl;
+   }
+   
+   else if (degreesCelsius >= 34) {
+      cout << "Too hot" << endl;
+   }
+
+   return 0;
+}
