@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int numberOfOutfits;
+
+   cin >> numberOfOutfits;
+
+   if (numberOfOutfits <= 5) {
+   cout << "Medium suitcase" << endl;
+   }
+
+   else if (numberOfOutfits < 13) {
+      cout << "Extra large suitcase" << endl;
+   }
+   
+   else if (numberOfOutfits >= 13) {
+      cout << "Must pack less" << endl;
+   }
+
+   return 0;
+}
