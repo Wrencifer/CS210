@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+#include <cctype>
+using namespace std;
+
+int main() {
+   string userPassword;
+
+   getline(cin, userPassword);
+   
+   if ((isalpha(userPassword.at(0))) && (isalpha(userPassword.at(1)))) {
+      userPassword[0] = '-';
+      userPassword[1] = '-';
+   }      
+   cout << userPassword << endl;
+
+   return 0;
+}
