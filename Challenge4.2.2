@@ -1,0 +1,20 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+   const int NUM_VALS = 5;
+   vector<int> runTimes(NUM_VALS);
+   unsigned int i;
+
+   // Populate vector
+   for (i = 0; i < runTimes.size(); ++i) {
+      cin >> runTimes.at(i);
+   }
+
+   cout << runTimes.at(0) << endl;
+   cout << runTimes.at(1) << endl;
+   cout << runTimes.at(2) << endl;
+
+   return 0;
+}
