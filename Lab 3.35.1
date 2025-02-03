@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+
+   string wordInput;
+   int numberInput;
+   
+   while (true) {
+      cin >> wordInput;
+      cin >> numberInput;
+      
+      if (wordInput == "quit")
+         break;
+         
+      cout << "Eating " << numberInput << " " << wordInput << " a day keeps you happy and healthy." << endl;
+   }
+   return 0;
+}
